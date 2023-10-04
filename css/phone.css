@@ -81,3 +81,7 @@ html{
   .about{
     order: 2;
   }
+
+  .about h1{
+    font-size: 1.9rem;
+  }
