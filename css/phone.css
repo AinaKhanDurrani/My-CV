@@ -1,6 +1,9 @@
 body{
     overflow-x: hidden;
 }
+html{
+    overflow: hidden;
+}
 .nav-logo{
     flex:2;
 }
