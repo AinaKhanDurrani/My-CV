@@ -87,7 +87,6 @@ html{
     margin: 0;
     color: var(--text-color);
     display: inline-block;
-    overflow: hidden;
     white-space: nowrap;
     width: 0;
     animation: typing;

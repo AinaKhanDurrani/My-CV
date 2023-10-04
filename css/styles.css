@@ -99,6 +99,9 @@ nav{
    color: var(--text-color);
    background-color: var(--bg-color);
    padding: 0px 10% ; 
+   min-height: 90vh;
+   height: 100%;
+   width: 100%;
  }
 
  .herosection{
