@@ -49,6 +49,7 @@ html{
     visibility: visible;
     pointer-events: auto;
     height: 100vh;
+    z-index: 99999;
 }
 
 .active .mobile-nav-btn .mobile-nav-icon[name="close-icon"]{
@@ -137,6 +138,36 @@ html{
     text-wrap: wrap;
     padding: 4px;
   }
+/* 
+  SKILLS SECTION */
+  .skills{
+    width: 100%;
+    max-width: 380px;
+    padding: 0 20px;
+    }
+    .tooltip{
+      position: relative;
+      right: -250px;
+      top: -37px;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background-color: var(--text-color);
+      color:  #2b3853;
+      width: 12%;
+      z-index: 1;
+      }
+/* 
+      CONTACT SECTION */
+      .contact{
+        padding: 40px 0;
+      }
+      .info{
+        width: 80%;
+        font-size: var(--normal-font);
+        padding: 15px 0px;
+        }
 
  /* Footer Section */
  footer{

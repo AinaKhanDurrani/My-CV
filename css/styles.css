@@ -200,6 +200,85 @@ nav{
   
 }
 
+/* SKILLS SECTION */
+.skill{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+  .skills{
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+  }
+  .title{
+  font-size: var(--normal-font);
+  font-weight: 400;
+  margin: 15px 0 20px;
+  }
+  
+  .skill-bar{
+  margin: 15px auto ;
+  border-radius: 3px;
+  height: 10px;
+  background-color: #2b3853;
+  }
+  .skill-per{
+  border-radius: 3px;
+  height: 10px;
+  background-color:var(--text-color);
+  animation: fillbar 3s infinite ;
+  }
+  @keyframes fillbar{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+  }
+  .tooltip{
+  position: relative;
+  right: -280px;
+  top: -37px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: var(--text-color);
+  color:  #2b3853;
+  width: 6%;
+  }
+
+  /* CONTACT SECTION */
+  .contact{
+    color:var(--text-color);
+    height: 90vh;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .info{
+  width: 30%;
+  height: 70%;
+  margin: auto;
+ 
+  }
+  .info > p{
+    font-size: var(--normal-font);
+    text-align: center;
+
+    padding: 10px ;
+  }
+  p > span{
+  font-weight: 300;
+  font-size: 1.4rem;
+  padding: 5px;
+  }
 
 /* FOOTER SECTION */
 footer{
