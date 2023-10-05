@@ -68,7 +68,7 @@ html{
     align-items: center;
     flex-direction: column; 
     text-align: center;
-    padding-top: 25px;
+    padding-top: 20px;
     justify-content: center;
   }
 
@@ -131,12 +131,17 @@ html{
   }
 
   /* EDUCATION SECTION */
-
+.heading-primary {
+  margin: 20px 0;
+  padding: 20px 0;
+}
   .Edu{
     font-size: .92rem;
     height: 340px;
     text-wrap: wrap;
     padding: 4px;
+    width: 90%;
+       
   }
 /* 
   SKILLS SECTION */
