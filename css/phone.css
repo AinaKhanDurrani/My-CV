@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
 }
 html{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .nav-logo{
     flex:2;
@@ -65,7 +65,7 @@ html{
     width: 95%;
     display:flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
     text-align: center;
     padding-top: 25px;
     justify-content: center;
@@ -79,11 +79,13 @@ html{
     height: 250px;
     padding: 0;
   }
-  .about{
+  .name{
     order: 2;
+    padding-left: 0px;
+    font-size: .92rem;
   }
 
-  .about h1{
+  .name h1{
     font-size: 1.8rem;
     margin: 0;
     color: var(--text-color);
@@ -95,4 +97,56 @@ html{
     animation-iteration-count:infinite;
     animation-timing-function: steps(30, end);
     animation-fill-mode: forwards;
+  }
+
+  /* about section */
+  .about-me{
+    flex-direction: column;
+
+  }
+
+  .my-pic{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .my-pic > img{
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid var(--text-color);
+    padding: 0;
+  }
+
+  .about{
+    width: 100%;
+    padding: 0;
+    margin: 15px 0;
+  }
+
+  .about > p{
+    font-size: .92rem;
+  }
+
+  /* EDUCATION SECTION */
+
+  .Edu{
+    font-size: .92rem;
+    height: 340px;
+    text-wrap: wrap;
+    padding: 4px;
+  }
+
+ /* Footer Section */
+ footer{
+    flex-direction: column;
+ }
+ footer > p{
+    margin-top:15px;
+    font-size: 0.9rem;
+    text-align: center;
+ }
+ .social-media-handels > li > a{
+    padding: 10px 20px;
   }
